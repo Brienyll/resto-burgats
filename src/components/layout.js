@@ -1,11 +1,17 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Navbar from "../components/global/navbar"
 
 //import "./layout.css"
 import "../sass/layout.scss"
 
 const Layout = ({ children }) => {
-  return <React.Fragment>{children}</React.Fragment>
+  return (
+    <React.Fragment>
+      <Navbar />
+      {children}
+    </React.Fragment>
+  )
 }
 
 Layout.propTypes = {
