@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import Navbar from "../components/global/navbar"
 
 //import "./layout.css"
-import "../sass/layout.scss"
 
 const Layout = ({ children }) => {
   return (
