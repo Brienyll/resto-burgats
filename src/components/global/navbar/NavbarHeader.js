@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import logo from "../../../images/logo.webp"
 import { GiHamburgerMenu } from "react-icons/gi"
 import styled from "styled-components"
+import { styles } from "../../../utils"
 
 export default class NavbarHeader extends Component {
   render() {
@@ -30,6 +31,7 @@ const HeaderWrapper = styled.div`
   justify-content: space-between;
   .toggle-icon {
     font-size: 1.75rem;
+    color: ${styles.colors.mainYellow};
     cursor: pointer;
   }
   @media (min-width: 768px) {
