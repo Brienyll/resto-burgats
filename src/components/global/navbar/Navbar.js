@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import NavbarHeader from "./NavbarHeader"
 import NavbarLinks from "./NavbarLinks"
 import NavbarIcons from "./NavbarIcons"
+import NavbarPhone from "./NavbarPhone"
 import styled from "styled-components"
 
 export default class Navbar extends Component {
@@ -21,6 +22,7 @@ export default class Navbar extends Component {
         <NavbarHeader handleNavbar={this.handleNavbar} />
         <NavbarLinks navbarOpen={this.state.navbarOpen} />
         <NavbarIcons />
+        <NavbarPhone />
       </NavWrapper>
     )
   }

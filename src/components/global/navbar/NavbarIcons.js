@@ -1,7 +1,12 @@
 import React, { Component } from "react"
 import styled from "styled-components"
 import { styles } from "../../../utils"
-import { FaInstagram, FaTwitter, FaFacebookF } from "react-icons/fa"
+import {
+  FaInstagram,
+  FaTwitter,
+  FaFacebookF,
+  FaGooglePlusG,
+} from "react-icons/fa"
 
 export default class NavbarIcons extends Component {
   state = {
@@ -20,6 +25,11 @@ export default class NavbarIcons extends Component {
         id: 3,
         icon: <FaFacebookF className="icon-facebook-icon" />,
         path: "https://www.facebook.com",
+      },
+      {
+        id: 4,
+        icon: <FaGooglePlusG className="icon-google-icon" />,
+        path: "https://www.google.com",
       },
     ],
   }
