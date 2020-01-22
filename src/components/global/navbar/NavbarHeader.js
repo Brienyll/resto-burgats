@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-import logo from "../../../images/logo.webp"
 import { GiHamburgerMenu } from "react-icons/gi"
 import styled from "styled-components"
 import { styles } from "../../../utils"
@@ -10,9 +8,6 @@ export default class NavbarHeader extends Component {
     const { handleNavbar } = this.props
     return (
       <HeaderWrapper>
-        <Link to="/">
-          <img src={logo} alt="Burger Resto" />
-        </Link>
         <GiHamburgerMenu
           className="toggle-icon"
           onClick={() => {
