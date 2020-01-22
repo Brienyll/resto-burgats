@@ -61,6 +61,7 @@ const LinkWrapper = styled.ul`
     list-style-type: none;
   }
   .nav-link {
+    font-family: "Paytone One", sans-serif;
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -72,6 +73,7 @@ const LinkWrapper = styled.ul`
       background: ${styles.colors.mainGrey};
       color: ${styles.colors.mainYellow};
       padding: 0.5rem 1rem 0.5rem 1rem;
+      text-decoration: underline;
     }
   }
   height: ${props => (props.open ? "152px" : "0px")};
